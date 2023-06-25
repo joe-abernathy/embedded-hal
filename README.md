@@ -12,4 +12,4 @@ Goals:
 Please Note:
 - This project is in its very early stages and may contain bugs, incomplete features, or suboptimal implementation. Any contributions or suggestions are welcome
 - My primary goal with this project is personal growth. This codebase may not reflect production-ready quality
-- I'm relatively new to the field of embedded programming, so please bear with me as I learn. Feedback and guidance are always welcome!
+- I'm relatively new to Rust, and to the field of embedded programming, so please bear with me as I learn. Feedback and guidance are always welcome!
