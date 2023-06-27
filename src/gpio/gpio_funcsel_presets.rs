@@ -13,7 +13,6 @@ impl Gpio0Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio1Func(pub u8);
 impl Gpio1Func {
@@ -28,7 +27,6 @@ impl Gpio1Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio2Func(pub u8);
 impl Gpio2Func {
@@ -43,7 +41,6 @@ impl Gpio2Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio3Func(pub u8);
 impl Gpio3Func {
@@ -58,7 +55,6 @@ impl Gpio3Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio4Func(pub u8);
 impl Gpio4Func {
@@ -73,7 +69,6 @@ impl Gpio4Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio5Func(pub u8);
 impl Gpio5Func {
@@ -88,7 +83,7 @@ impl Gpio5Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio6Func(pub u8);
 impl Gpio6Func {
@@ -103,7 +98,7 @@ impl Gpio6Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio7Func(pub u8);
 impl Gpio7Func {
@@ -118,7 +113,7 @@ impl Gpio7Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio8Func(pub u8);
 impl Gpio8Func {
@@ -133,7 +128,7 @@ impl Gpio8Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio9Func(pub u8);
 impl Gpio9Func {
@@ -148,7 +143,7 @@ impl Gpio9Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio10Func(pub u8);
 impl Gpio10Func {
@@ -163,7 +158,7 @@ impl Gpio10Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio11Func(pub u8);
 impl Gpio11Func {
@@ -178,7 +173,7 @@ impl Gpio11Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio12Func(pub u8);
 impl Gpio12Func {
@@ -193,7 +188,7 @@ impl Gpio12Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio13Func(pub u8);
 impl Gpio13Func {
@@ -208,7 +203,7 @@ impl Gpio13Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio14Func(pub u8);
 impl Gpio14Func {
@@ -223,7 +218,7 @@ impl Gpio14Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio15Func(pub u8);
 impl Gpio15Func {
@@ -238,7 +233,7 @@ impl Gpio15Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio16Func(pub u8);
 impl Gpio16Func {
@@ -253,7 +248,7 @@ impl Gpio16Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio17Func(pub u8);
 impl Gpio17Func {
@@ -268,7 +263,7 @@ impl Gpio17Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio18Func(pub u8);
 impl Gpio18Func {
@@ -283,7 +278,7 @@ impl Gpio18Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio19Func(pub u8);
 impl Gpio19Func {
@@ -298,7 +293,7 @@ impl Gpio19Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio20Func(pub u8);
 impl Gpio20Func {
@@ -314,7 +309,7 @@ impl Gpio20Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio21Func(pub u8);
 impl Gpio21Func {
@@ -330,7 +325,7 @@ impl Gpio21Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio22Func(pub u8);
 impl Gpio22Func {
@@ -346,7 +341,7 @@ impl Gpio22Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio23Func(pub u8);
 impl Gpio23Func {
@@ -362,7 +357,7 @@ impl Gpio23Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio24Func(pub u8);
 impl Gpio24Func {
@@ -378,7 +373,7 @@ impl Gpio24Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio25Func(pub u8);
 impl Gpio25Func {
@@ -394,7 +389,7 @@ impl Gpio25Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio26Func(pub u8);
 impl Gpio26Func {
@@ -409,7 +404,7 @@ impl Gpio26Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio27Func(pub u8);
 impl Gpio27Func {
@@ -424,7 +419,7 @@ impl Gpio27Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio28Func(pub u8);
 impl Gpio28Func {
@@ -439,7 +434,7 @@ impl Gpio28Func {
 	pub const NULL: Self = Self(0x1f);
 }
 
-#[repr(transparent)]
+
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub struct Gpio29Func(pub u8);
 impl Gpio29Func {
