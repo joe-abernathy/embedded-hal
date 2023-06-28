@@ -1,4 +1,4 @@
-# embedded-hal
+# rust-embedded-hal
 
 This repository aims to develop a Hardware Abstraction Layer (HAL) for embedded systems from scratch using Rust. This is primarily intended as a personal learning experience to enhance my embedded programming skills with Rust. This project will initially target the RP2040 microcontroller used in several Raspberry Pi boards, but may be extended as development continues.
 
