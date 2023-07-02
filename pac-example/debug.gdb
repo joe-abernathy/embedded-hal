@@ -1,17 +1,17 @@
 # Connect to the debugger
-target remote :2331
+target remote localhost:3333
 
 # Prevent panic corruption of LR
-set backtrace limit 32
+#set backtrace limit 32
 
 # Program code to flash
 load
 
 # Reset the device
-monitor reset
+monitor reset init
 
 # Set a breakpoint at main()
-break main
+#break main
 
 # Run until we hit main()
-continue
+#continue
